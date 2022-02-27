@@ -1,0 +1,54 @@
+/* Page inscription */
+
+.conteneurInscription {
+	display:  flex;
+	flex-direction: column;
+	height: 600px;
+	width: 100%;
+	align-items: center;
+
+}
+
+.conteneurInscription h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.conteneurInscription form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 450px;
+	width: 250px;
+	border: 1px solid black;
+
+}
+
+.errorMessage {
+	color: red;
+}
+
+.successMessage {
+	color: green;
+}
+
+.inputForm {
+	height: 30px;
+}
+
+
+/* Page de profil */
+
+
+#profileContainer {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.emptyBox:hover {
+	cursor: pointer;
+}
