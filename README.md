@@ -1,3 +1,3 @@
 # Battleships
-A small battleships game
+A small  Javascript battleships game
 
